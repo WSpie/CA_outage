@@ -1,0 +1,67 @@
+Los Angeles
+San Francisco
+San Diego
+Sacramento
+San Jose
+Fresno
+Oakland
+Long Beach
+Bakersfield
+Anaheim
+Santa Ana
+Riverside
+Stockton
+Chula Vista
+Irvine
+Fremont
+San Bernardino
+Modesto
+Oxnard
+Fontana
+Moreno Valley
+Glendale
+Huntington Beach
+Santa Clarita
+Garden Grove
+Santa Rosa
+Oceanside
+Rancho Cucamonga
+Ontario
+Lancaster
+Elk Grove
+Palmdale
+Corona
+Salinas
+Pomona
+Torrance
+Hayward
+Escondido
+Sunnyvale
+Pasadena
+Orange
+Fullerton
+Thousand Oaks
+Visalia
+Simi Valley
+Concord
+Roseville
+Victorville
+Santa Clara
+Vallejo
+Berkeley
+El Monte
+Downey
+Costa Mesa
+Inglewood
+Carlsbad
+San Buenaventura
+Fairfield
+West Covina
+Murrieta
+Norwalk
+Richmond
+Temecula
+Antioch
+Greenfield
+Daly City
+Burbank
