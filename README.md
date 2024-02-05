@@ -14,3 +14,5 @@ Preview of outputs\02_04_2024_21.43.csv:
 | CURRENT     | daly city     | STORM        | 7741  | san mateo     | 2024-02-04 19:27:23 | daly city     | city   |
 | CURRENT     | sunnyvale     | STORM        | 7553  | santa clara   | 2024-02-04 19:27:23 | santa clara   | county |
 
+# Schedule and run
+Use cron to set schedule [file](schedule_n_run.sh).
