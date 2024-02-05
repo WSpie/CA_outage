@@ -1,3 +1,3 @@
 #!/bin/bash
-python main.py --n-cpus 20
+python main.py --n-cpus 48
 
