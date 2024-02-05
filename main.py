@@ -20,6 +20,7 @@ def load_cities(file_path):
                 processed_city = city.strip().replace(" ", "%20")
                 processed_cities.append(processed_city)
     except FileNotFoundError:
+        print(file_path)
         print(f"File not found: {file_path}")
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -54,20 +55,21 @@ def scrape_cities_concurrently(cities, n_cpus=20):
     return summarized_df
 
 if __name__ == '__main__':
+    root_path = '/home/grads/l/lipai.huang/CA_outage/'
     parser = ArgumentParser()
     parser.add_argument('--n-cpus', default=1)
     opt = parser.parse_args()
 
-    ca_cities = load_cities('cities_in_california.txt')
+    ca_cities = load_cities(root_path+'cities_in_california.txt')
     cur_time = get_time()
 
     # Ensure the output directory exists
-    os.makedirs('outputs', exist_ok=True)
+    os.makedirs(root_path+'outputs', exist_ok=True)
 
-    summarized_df = scrape_cities_concurrently(ca_cities, opt.n_cpus)
+    summarized_df = scrape_cities_concurrently(ca_cities, int(opt.n_cpus))
 
     # Save the summarized DataFrame
-    output_path = os.path.join('outputs', f'{cur_time}.csv')
+    output_path = root_path+os.path.join('outputs', f'{cur_time}.csv')
     summarized_df = summarized_df.sort_values('count', ascending=False)
     summarized_df.to_csv(output_path, index=False)
     print(f"Data saved to {output_path}")
