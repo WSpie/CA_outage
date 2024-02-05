@@ -1,3 +1,6 @@
+Target [CA outage map](https://pgealerts.alerts.pge.com/outage-tools/outage-map/#)
+It's hard to scrape direcly, we use alternative approach here.
+
 # Run
 ```
 python main.py --n-cpus 20 (default 1)
